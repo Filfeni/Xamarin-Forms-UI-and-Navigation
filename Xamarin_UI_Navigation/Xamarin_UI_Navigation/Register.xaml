@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Xamarin_UI_Navigation.Register">
+             x:Class="Xamarin_UI_Navigation.Register"
+             Title="Register">
     
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
@@ -10,7 +11,7 @@
             <Entry x:Name="emailEntry" Placeholder="Email"></Entry>
             <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True"></Entry>
             <Entry x:Name="confirmPasswordEntry" Placeholder="Confirm Password" IsPassword="True"></Entry>
-            <Button BackgroundColor="#d90812" Clicked="RegisterUser" Text="Log in" TextColor="#ffffff"></Button>
+            <Button BackgroundColor="#d90812" Clicked="RegisterUser" Text="Register" TextColor="#ffffff"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

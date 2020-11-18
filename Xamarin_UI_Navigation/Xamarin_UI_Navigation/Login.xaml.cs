@@ -31,10 +31,7 @@ namespace Xamarin_UI_Navigation
 
         private async void GoToRegister(object sender, EventArgs e)
         {
-            var registerPage = new NavigationPage(new Register());
-            registerPage.BarBackgroundColor = Color.FromHex("#ffffff");
-            registerPage.Title = "Register";
-            await Navigation.PushModalAsync(registerPage);
+            await Navigation.PushAsync(new Register());
         }
     }
 }

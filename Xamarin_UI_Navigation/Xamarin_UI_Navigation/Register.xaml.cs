@@ -17,8 +17,19 @@ namespace Xamarin_UI_Navigation
             InitializeComponent();
         }
 
-        private void RegisterUser(object sender, EventArgs e)
+        private async void RegisterUser(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(nameEntry.Text) || string.IsNullOrEmpty(emailEntry.Text) || string.IsNullOrEmpty(passwordEntry.Text) || string.IsNullOrEmpty(confirmPasswordEntry.Text))
+            {
+                await DisplayAlert("Error", "There are empty fields", "Ok");
+            }else if(passwordEntry.Text != confirmPasswordEntry.Text)
+            {
+                await DisplayAlert("Error", "Passwords do not match", "Ok");
+            }
+            else
+            {
+                await Navigation.PushModalAsync(new Home());
+            }
 
         }
     }

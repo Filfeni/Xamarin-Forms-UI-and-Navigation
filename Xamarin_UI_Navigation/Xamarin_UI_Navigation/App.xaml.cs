@@ -9,7 +9,7 @@ namespace Xamarin_UI_Navigation
         public App()
         {
             InitializeComponent();
-            MainPage = new Login();
+            MainPage = new NavigationPage(new Login()) { BarBackgroundColor = Color.White, BarTextColor = Color.Black};
         }
 
         protected override void OnStart()

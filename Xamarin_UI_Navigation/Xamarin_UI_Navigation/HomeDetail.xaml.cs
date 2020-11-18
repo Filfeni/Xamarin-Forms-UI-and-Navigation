@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Xamarin_UI_Navigation
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Home : MasterDetailPage
+    public partial class HomeDetail : ContentPage
     {
-        public Home()
+        public HomeDetail()
         {
             InitializeComponent();
-        }
-
-        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            
         }
     }
 }

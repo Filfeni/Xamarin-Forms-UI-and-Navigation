@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_UI_Navigation.HomeMaster"
+             Title="Master">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" WidthRequest="200">
+        <Button BackgroundColor="OrangeRed" TextColor="#ffffff" Text="Home"></Button>
+        <Button TextColor="OrangeRed" BackgroundColor="#ffffff" Text="Option 1"></Button>
+        <Button TextColor="OrangeRed" BackgroundColor="#ffffff" Text="Option 2"></Button>
+    </StackLayout>
+</ContentPage>
