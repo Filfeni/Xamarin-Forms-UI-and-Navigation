@@ -3,12 +3,14 @@
  <br/>
  Login page
  ![alt text](https://github.com/Filfeni/Xamarin-Forms-UI-and-Navigation/blob/main/A.png?raw=true)
+ <br/>
  Login Validations
  ![alt text](https://github.com/Filfeni/Xamarin-Forms-UI-and-Navigation/blob/main/A1.png?raw=true)
  ![alt text](https://github.com/Filfeni/Xamarin-Forms-UI-and-Navigation/blob/main/A2.png?raw=true)
  <br/>
  Register page
  ![alt text](https://github.com/Filfeni/Xamarin-Forms-UI-and-Navigation/blob/main/B.png?raw=true)
+ <br/>
  Register Validations
  ![alt text](https://github.com/Filfeni/Xamarin-Forms-UI-and-Navigation/blob/main/B1.png?raw=true)
  ![alt text](https://github.com/Filfeni/Xamarin-Forms-UI-and-Navigation/blob/main/B2.png?raw=true)
