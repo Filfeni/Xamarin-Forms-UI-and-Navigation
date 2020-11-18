@@ -16,9 +16,10 @@
  <br/>
  
  ### Register page
- 
  <br/>
+ 
  ![alt text](https://github.com/Filfeni/Xamarin-Forms-UI-and-Navigation/blob/main/B.png?raw=true)
+ 
  <br/>
  
  ### Register Validations
