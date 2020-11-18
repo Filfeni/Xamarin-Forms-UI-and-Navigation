@@ -10,13 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace Xamarin_UI_Navigation
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Home : TabbedPage
+    public partial class Register : ContentPage
     {
-        public Home()
+        public Register()
         {
             InitializeComponent();
         }
 
-        
+        private void RegisterUser(object sender, EventArgs e)
+        {
+
+        }
     }
 }

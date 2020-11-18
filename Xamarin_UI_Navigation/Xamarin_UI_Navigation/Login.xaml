@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Xamarin_UI_Navigation.Login"
+            BarBackgroundColor="#ffffff"
+            BarTextColor="#d90812">
+    <ContentPage BackgroundColor="#ffffff" Title="Log in" IconImageSource="login2.png">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Margin="50,0" Scale="1" HeightRequest="200" WidthRequest="200" Source="emblemaintec.png" />
+            <Entry x:Name="emailEntry" Placeholder="Email"></Entry>
+            <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True"></Entry>
+            <Button BackgroundColor="#d90812" Clicked="SignIn" Text="Log in" TextColor="#ffffff"></Button>
+            <Button BackgroundColor="#ffffff" Clicked="GoToRegister" TextColor="#d90812" Text="Register"></Button>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Home" IconImageSource="home2.png"></ContentPage>
+</TabbedPage>

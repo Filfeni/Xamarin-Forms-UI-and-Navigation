@@ -9,7 +9,7 @@ namespace Xamarin_UI_Navigation
         public App()
         {
             InitializeComponent();
-            MainPage = new Home();
+            MainPage = new Login();
         }
 
         protected override void OnStart()
