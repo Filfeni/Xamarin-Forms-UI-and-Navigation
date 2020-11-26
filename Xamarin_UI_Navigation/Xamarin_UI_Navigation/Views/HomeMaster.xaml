@@ -5,7 +5,9 @@
              Title="Master">
     <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" WidthRequest="200">
         <Button BackgroundColor="OrangeRed" TextColor="#ffffff" Text="Home"></Button>
-        <Button TextColor="OrangeRed" BackgroundColor="#ffffff" Text="Option 1"></Button>
-        <Button TextColor="OrangeRed" BackgroundColor="#ffffff" Text="Option 2"></Button>
+        <Button TextColor="OrangeRed" BackgroundColor="#ffffff" Text="Discovery"></Button>
+        <Button TextColor="OrangeRed" BackgroundColor="#ffffff" Text="Bookmark"></Button>
+        <Button TextColor="OrangeRed" BackgroundColor="#ffffff" Text="Top Foodie"></Button>
+        <Button TextColor="OrangeRed" BackgroundColor="#ffffff" Text="Profile"></Button>
     </StackLayout>
 </ContentPage>

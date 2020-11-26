@@ -13,38 +13,38 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Frame BackgroundColor="#ffffff" Grid.Row="0" Grid.Column="0">
+        <Frame CornerRadius="5" BackgroundColor="#ffffff" Grid.Row="0" Grid.Column="0">
             <StackLayout>
                 <Image HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="0,20,0,20" Source="{Binding BarAndHotelsMenuOption.Image}"></Image>
                 <Label HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Text="{Binding BarAndHotelsMenuOption.Title}" TextColor="#000000" FontAttributes="Bold"></Label>
             </StackLayout>
             
         </Frame>
-        <Frame BackgroundColor="#ffffff" Grid.Row="0" Grid.Column="1">
+        <Frame CornerRadius="5" BackgroundColor="#ffffff" Grid.Row="0" Grid.Column="1">
             <StackLayout>
                 <Image HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="0,20,0,20" Source="{Binding FineDiningMenuOption.Image}"></Image>
                 <Label HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Text="{Binding FineDiningMenuOption.Title}" TextColor="#000000" FontAttributes="Bold"></Label>
             </StackLayout>
         </Frame>
-        <Frame BackgroundColor="#ffffff" Grid.Row="1" Grid.Column="0">
+        <Frame CornerRadius="5" BackgroundColor="#ffffff" Grid.Row="1" Grid.Column="0">
             <StackLayout>
                 <Image HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="0,20,0,20" Source="{Binding CafesMenuOption.Image}"></Image>
                 <Label HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Text="{Binding CafesMenuOption.Title}" TextColor="#000000" FontAttributes="Bold"></Label>
             </StackLayout>
         </Frame>
-        <Frame BackgroundColor="#ffffff" Grid.Row="1" Grid.Column="1">
+        <Frame CornerRadius="5" BackgroundColor="#ffffff" Grid.Row="1" Grid.Column="1">
             <StackLayout>
                 <Image HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="0,20,0,20" Source="{Binding NearbyMenuOption.Image}"></Image>
                 <Label HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Text="{Binding NearbyMenuOption.Title}" TextColor="#000000" FontAttributes="Bold"></Label>
             </StackLayout>
         </Frame>
-        <Frame BackgroundColor="#ffffff" Grid.Row="2" Grid.Column="0">
+        <Frame CornerRadius="5" BackgroundColor="#ffffff" Grid.Row="2" Grid.Column="0">
             <StackLayout>
                 <Image HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="0,20,0,20" Source="{Binding FastFoodsMenuOption.Image}"></Image>
                 <Label HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Text="{Binding FastFoodsMenuOption.Title}" TextColor="#000000" FontAttributes="Bold"></Label>
             </StackLayout>
         </Frame>
-        <Frame BackgroundColor="#ffffff" Grid.Row="2" Grid.Column="1">
+        <Frame CornerRadius="5" BackgroundColor="#ffffff" Grid.Row="2" Grid.Column="1">
             <StackLayout>
                 <Image HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="0,20,0,20" Source="{Binding FeaturedFoodsMenuOption.Image}"></Image>
                 <Label HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Text="{Binding FeaturedFoodsMenuOption.Title}" TextColor="#000000" FontAttributes="Bold"></Label>
