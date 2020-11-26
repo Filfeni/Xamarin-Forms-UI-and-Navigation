@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin_UI_Navigation.Viewmodels;
 
 namespace Xamarin_UI_Navigation
 {
@@ -15,24 +16,7 @@ namespace Xamarin_UI_Navigation
         public Login()
         {
             InitializeComponent();
-        }
-
-        private async void SignIn(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(emailEntry.Text) || string.IsNullOrEmpty(passwordEntry.Text))
-            {
-                await DisplayAlert("Error", "Email or Password fields can't be empty", "Ok");
-            }
-            else
-            {
-                await Navigation.PushModalAsync(new Home());
-                await DisplayAlert("Welcome", $"Hello {emailEntry.Text}", "Ok");
-            }
-        }
-
-        private async void GoToRegister(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Register());
+            BindingContext = new LoginViewModel();
         }
     }
 }
