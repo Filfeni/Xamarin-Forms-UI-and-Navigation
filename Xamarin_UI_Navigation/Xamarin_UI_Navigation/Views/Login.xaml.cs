@@ -25,6 +25,7 @@ namespace Xamarin_UI_Navigation
             }
             else
             {
+                await Navigation.PushModalAsync(new Home());
                 await DisplayAlert("Welcome", $"Hello {emailEntry.Text}", "Ok");
             }
         }
