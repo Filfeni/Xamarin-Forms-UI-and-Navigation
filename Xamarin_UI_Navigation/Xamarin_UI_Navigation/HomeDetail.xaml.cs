@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin_UI_Navigation.Viewmodels;
 
 namespace Xamarin_UI_Navigation
 {
@@ -15,6 +16,7 @@ namespace Xamarin_UI_Navigation
         public HomeDetail()
         {
             InitializeComponent();
+            BindingContext = new HomeViewModel();
         }
     }
 }
